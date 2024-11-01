@@ -61,3 +61,14 @@ html reports, spark reports and extent pdf reports
 Screenshots:
 
 In test-output - screenshots
+
+About Testing:
+
+Functional Testing:
+Executed functionality tests with valid user credentials (i.e., standard_user and secret_sauce), confirming that all core features work as expected. However, footer links were non-functional, which has been documented in the bug report. Additionally, testing with problem_user credentials (problem_user and secret_sauce) revealed certain issues, such as product images not displaying correctly.
+
+Performance Testing:
+Conducted performance testing on the Swag Labs application using the performance_glitch_user credentials (performance_glitch_user and secret_sauce) to monitor application response times for each test case. Compared to the standard_user, the performance user experiences longer execution times, indicating higher latency.
+
+Accessibility Testing:
+Performed basic accessibility tests across all Swag Labs pages using both the Lighthouse tool (Chrome's built-in add-on, tested with standard_user and secret_sauce) and the Axe tool (Chrome's external add-on, tested with problem_user and secret_sauce). Accessibility issues for each page have been noted and are included in the Accessibility Testing Bug Report.
