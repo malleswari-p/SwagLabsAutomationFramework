@@ -72,3 +72,6 @@ Conducted performance testing on the Swag Labs application using the performance
 
 Accessibility Testing:
 Performed basic accessibility tests across all Swag Labs pages using both the Lighthouse tool (Chrome's built-in add-on, tested with standard_user and secret_sauce) and the Axe tool (Chrome's external add-on, tested with problem_user and secret_sauce). Accessibility issues for each page have been noted and are included in the Accessibility Testing Bug Report.
+
+Jenkins:
+Jenkins fetches the code from GitHub and executes the test suite, displaying results in the console output. Any failed tests, along with errors, are recorded in the Jenkins console, and a detailed report is included for further review.
