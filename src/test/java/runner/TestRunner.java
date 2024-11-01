@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features="src/test/resources/features",
         glue={"stepdefinitions","hooks"},
         publish=true,
+        monochrome = true         
  //       tags = "@twitterLink",
         plugin={"pretty","html:target/CucumberReports/CucumberReport.html",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
