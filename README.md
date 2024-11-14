@@ -50,7 +50,7 @@ mvn clean install
 
 mvn clean test > for running all tests
 
-mvn test -Dcucumber.options="--tags @tagName" > To run specific test using cucumber tags
+mvn test -Dcucumber.filter.tags="@tagName" > To run specific test using cucumber tags
 
 Test Reports:
 
